@@ -1,0 +1,24 @@
+header {
+    background-color: rgb(168, 171, 156);
+    padding-bottom: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serifs;
+    font-weight: bold;
+}
+.brand {
+    padding-top: 40px;
+    padding-left: 200px;
+    color: white;
+    text-shadow: 5px 5px 7px black;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 102px;
+  }
