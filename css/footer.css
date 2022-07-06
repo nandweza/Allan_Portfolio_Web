@@ -1,12 +1,8 @@
 footer {
     background-color: black;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
+    display: inline;
   }
- 
-  /*.connect.img {
-    width: 0.02px;
-    margin: auto;
-  }*/
  
   .foot_text {
     text-align: center;
@@ -17,10 +13,7 @@ footer {
 
   .connect {
     text-align: center;
-    position: relative;
-}
-.connect > a:hover {
-  color: red;
+    display: inline;
 }
 
 /* Style all font awesome icons */
@@ -30,11 +23,13 @@ footer {
   width: 50px;
   text-align: center;
   text-decoration: none;
+  display: inline;
 }
 
 /* Add a hover effect if you want */
 .fa:hover {
   opacity: 0.7;
+  color: red;
 }
 
 /* Set a specific color for each brand */
