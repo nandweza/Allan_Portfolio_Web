@@ -1,19 +1,10 @@
-footer {
-    background-color: black;
-    padding-bottom: 20px;
-    display: inline;
-  }
- 
-  .foot_text {
-    text-align: center;
-    font-size: 14px;
-    color: white;
-    padding-top: 50px;
-  }
+.ftext {
+  background-color: black;
+  padding-bottom: 20px;
+}
 
-  .connect {
-    text-align: center;
-    display: inline;
+.connect {
+  text-align: center;
 }
 
 /* Style all font awesome icons */
@@ -23,7 +14,6 @@ footer {
   width: 50px;
   text-align: center;
   text-decoration: none;
-  display: inline;
 }
 
 /* Add a hover effect if you want */
@@ -62,4 +52,11 @@ footer {
 .fa-medium {
 /*  background: #55ACEE;*/
   color: white;
+}
+
+.foot_text {
+  text-align: center;
+  font-size: 14px;
+  color: white;
+  padding-top: 50px;
 }
