@@ -7,6 +7,10 @@
   text-align: center;
 }
 
+.connect li {
+  display: inline;
+}
+
 /* Style all font awesome icons */
 .fa {
   padding: 20px;
