@@ -2,16 +2,20 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 /* Style page content */
 .main {
   margin-left: 160px; /* Same as the width of the sidebar */
-  padding: 0px 10px;
+  padding: 0;
     
 }
 
 /* Home section*/
 .home {
-  background-image: url("/images/home2.JPG");
+  /*background-image: url("/images/home2.JPG");*/
   height: 600px;
   color: blue;
 }
@@ -129,28 +133,57 @@ button {
   color: white; /* White text color */
 }
 
-.html {width: 85%; background-color: #f02c2c;}
+.comp {width: 85%; background-color: #f02c2c;}
 .css {width: 75%; background-color: #2717b9;}
 .js {width: 50%; background-color: #e9dedd;}
 .python {width: 85%; background-color: #f0e10c;}
 .c {width: 60%; background-color: #353636;}
-.mysql {width: 80%; background-color: #FFA500;}
 .nginx {width: 80%; background-color: #36f456;}
 .git {width: 90%; background-color: #f0140c;}
-.flask {width: 80%; background-color: #060707;}
-.mongodb {width: 70%; background-color: #0b6312;}
+.db {width: 70%; background-color: #0b6312;}
 .illustrator {width: 80%; background-color: #836e11;}
 .photoshop {width: 60%; background-color: hsl(251, 78%, 42%);}
 
 /* service */
 .services {
-  background-color: pink;
-  text-align: left;
-  color: #060707;
+  background-color: black;
 }
-.services ul li {
-  font-size: 25px;
+.card h3 {
+  text-align: center;
+  font-size: large;
 }
+/*.card p {
+  align-items: center;
+}*/
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 0, 10px;
+}
+.services {margin: 0 -5px;}
+
+.services:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: grey;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+/* END services */
 /* end skills section */
 
 /* contact section*/
@@ -171,7 +204,7 @@ button {
   font-size: 23px;
 }
 .card-column1{
-  background-color: #814923;
+  /*background-color: #814923;*/
   padding: 10px;
 }
 .column2 {
@@ -198,11 +231,14 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: #04AA6D;
+  background-color: red;
   color: white;
+  font-size: larger;
+  font-weight: bolder;
   padding: 12px 20px;
   border: none;
   cursor: pointer;
+  border-radius: 5%;
 }
 
 input[type=submit]:hover {
@@ -215,4 +251,24 @@ input[type=submit]:hover {
   background-color: #f2f2f2;
   padding: 10px;
 }
+
+@media screen and (max-width: 600px) {
+  .column1, .column2, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+/* get in touch styles*/
+.fa .info {
+  float: left;
+  width: 50%;
+}
+.user:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
 /* end contact section */
