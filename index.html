@@ -23,31 +23,39 @@
   <!--beginning of nav section-->
   <nav class="mynavbar">
     <!-- Avatar image in top left corner -->
-    <img src="images/allan2.jpg" alt="my picture.">
-    <br>       
+    <img src="images/allan2.jpg" alt="my picture.">      
     <a href="#home" class="navbar">
     <i class="fa fa-home"></i>
-    <p>HOME</p>
+    <div>HOME</div>
     </a>
     <a href="#about" class="navbar">
     <i class="fa fa-user"></i>
-    <p>ABOUT</p>
+    <div>ABOUT</div>
     </a>
     <a href="#skills" class="navbar">
     <i class="fa fa-cogs"></i>
-    <p>SKILLS</p>
+    <div>SKILLS</div>
     </a>
     <a href="#contact" class="navbar">
     <i class="fa fa-envelope"></i>
-    <p>CONTACT</p>
+    <div>CONTACT</div>
     </a>
+    <div class="touch">Get in touch<i class="fa fa-hand-o-down"></i></div>
+    <div class="connect">
+      <i class="fa fa-whatsapp" style="font-size: 25px;"><a href="https://api.whatsapp.com/send?phone=256788266754"></a></i>
+      <i class="fa fa-twitter" style="font-size: 25px;"><a href="https://twitter.com/@allannandweza"></a></i>
+      <i class="fa fa-linkedin" style="font-size: 25px;"><a href="https://www.linkedin.com/in/nandweza-allan-054a21218/"></a></i>
+      <i class="fa fa-github" style="font-size: 25px;"><a href="https://github.com/nandweza"></a></i>
+      <i class="fa fa-medium" style="font-size: 25px;"><a href="https://medium.com/@allannandweza"></a></i>
+    </div>
   </nav>
   <!--end of nav section-->
   
   <!--main content-->
   <div class="main">
     <!--beginning home section-->
-    <section class="home" id="home">       
+    <section class="home" id="home">
+      <div class="hello">Hola!</div>      
       <h1 class="mytxt1"><span class="mytxt2">I'm</span> Nandweza Allan.</h1>
       <p>Software Engineer/Backend Developer.</p>
     </section>
@@ -121,7 +129,7 @@
             </div>
             <p>Python/Frameworks/Libraries</p>
             <div class="container">
-              <div class="skills python">80%</div>
+              <div class="skills python">85%</div>
             </div>
             <p>C</p>
             <div class="container">
@@ -157,25 +165,25 @@
       <div class="services" id="services">
         <div class="card-service">
           <h2>My Services</h2>
-          <div class="column">
-            <dv class="card">
-              <i class="fa fa-laptop" style="font-size: 50px; font-weight: bolder;"></i>
-              <h3>Computer maintainance<br> & Troubleshooting</h3>
-              <br>
-              <p>I do computer maintainance,<br> Troubleshooting, Error fixing<br> on all versions of windows,<br> application Installation &<br> Operating system Installation<br> such as Windows and linux....</p>
-              <br>
-            </dv>
-          </div>
-          <dv class="column">
-            <div class="card">
+          <div class="column-s">
+            <div class="card-s">
               <i class="fa fa-code" style="font-size: 50px; font-weight: bolder;"></i>
               <h3>Am a Software Engineer &<br> Upcoming Backend Developer.</h3>
               <br>
               <p>I love coding and working in the backend,<br> I also design & develop websites.</p>
             </div>
-          </dv>
-          <div class="column">
-            <div class="card">
+          </div>
+          <div class="column-s">
+            <div class="card-s">
+              <i class="fa fa-laptop" style="font-size: 50px; font-weight: bolder;"></i>
+              <h3>Computer maintainance<br> & Troubleshooting</h3>
+              <br>
+              <p>I do computer maintainance,<br> Troubleshooting, Error fixing<br> on all versions of windows,<br> application Installation &<br> Operating system Installation<br> such as Windows and linux....</p>
+              <br>
+            </div>
+          </div>
+          <div class="column-s">
+            <div class="card-s">
               <i class="fa fa-paint-brush" style="font-size: 50px; font-weight: bolder;" ></i>
               <h3>I do Graphic designing<br> & animations..</h3>
               <br>
@@ -196,49 +204,51 @@
         <div class="column1">
           <div class="card-column1">
             <div class="user">
-              <i class="fa fa-user" style="font-size: 30px;"></i>
+              <i class="fa fa-user" style="font-size: 45px;"></i>
               <div class="info">
-                <h4>Name:</h4>
-                <p>Nandweza Allan</p>
+                <div class="_title">Name:</div>
+                <div class="sub_title">Nandweza Allan</div>
               </div>
             </div>
             <div class="address">
-              <i class="fa fa-map-marker" style="font-size: 30px;"></i>
+              <i class="fa fa-map-marker" style="font-size: 45px;"></i>
               <div class="info">
-                <h4>Location:</h4>
-                <p>Kampala, Uganda.</p>
+                <div class="_title">Location:</div>
+                <div class="sub_title">Kampala, Uganda.</div>
               </div>
             </div>
             <div class="phone">
-              <i class="fa fa-phone-square" style="font-size: 30px;"></i>
+              <i class="fa fa-phone-square" style="font-size: 45px;"></i>
               <div class="info">
-                <h4>Call:</h4>
-                <p>+256788266754</p>
+                <div class="_title">Call:</div>
+                <div class="sub_title">+256788266754</div>
             </div>
             </div>
             <div class="email">
-              <i class="fa fa-envelope" style="font-size: 30px;"></i>
+              <i class="fa fa-envelope" style="font-size: 45px;"></i>
               <div class="info">
-                <h4>Email:</h4>
-                <p>allannandweza@gmail.com</p>
+                <div class="_title">Email:</div>
+                <div class="sub_title">nandwezaallan@yahoo.com</div>
               </div>
             </div>
           </div>
         </div>
         <div class="column2">
-          <form action="/action_page.php">
-            <label for="fname">Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your name..">
-            <br>
-            <br>
-            <label for="Eaddres">Email Address</label>
-            <input type="text" id="Eaddres" name="EmailAddress" placeholder="Your Email Address..">
-            <br>
-            <br>
-            <label for="subject">Subject</label>
-            <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
-            <input type="submit" value="Send message">
-          </form>
+          <div class="card-column2">
+            <form action="/action_page.php">
+              <label for="fname">Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              <br>
+              <br>
+              <label for="Eaddres">Email Address</label>
+              <input type="text" id="Eaddres" name="EmailAddress" placeholder="Your Email Address..">
+              <br>
+              <br>
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+              <input type="submit" value="Send message">
+            </form>
+          </div>
         </div>
       </div>
     </section>

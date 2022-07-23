@@ -8,7 +8,7 @@ body {
 
 /* Style page content */
 .main {
-  margin-left: 160px; /* Same as the width of the sidebar */
+  margin-left: 200px; /* Same as the width of the sidebar */
   padding: 0;
     
 }
@@ -17,13 +17,24 @@ body {
 .home {
   /*background-image: url("/images/home2.JPG");*/
   height: 600px;
-  color: blue;
+}
+.hello {
+  padding-top: 200px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: lighter;
+  color: #f02c2c;
+  font-family: 'Courier New', Courier, monospace;
 }
 .mytxt1 {
-  padding-top: 250px;
   text-align: center;
   font-size: 50px;
   font-weight: 1000;
+}
+.mytxt1:hover {
+  color: #f02c2c;
+  transition: 4s;
+  transition-delay: 0.2s;
 }
 .home p {
   text-align: center;
@@ -133,22 +144,22 @@ button {
   color: white; /* White text color */
 }
 
-.comp {width: 85%; background-color: #f02c2c;}
-.css {width: 75%; background-color: #2717b9;}
+.comp {width: 95%; background-color: #f02c2c;}
+.css {width: 90%; background-color: #2717b9;}
 .js {width: 50%; background-color: #e9dedd;}
 .python {width: 85%; background-color: #f0e10c;}
 .c {width: 60%; background-color: #353636;}
-.nginx {width: 80%; background-color: #36f456;}
+.server {width: 85%; background-color: #36f456;}
 .git {width: 90%; background-color: #f0140c;}
 .db {width: 70%; background-color: #0b6312;}
-.illustrator {width: 80%; background-color: #836e11;}
-.photoshop {width: 60%; background-color: hsl(251, 78%, 42%);}
+.illustrator {width: 90%; background-color: #836e11;}
+.photoshop {width: 70%; background-color: hsl(251, 78%, 42%);}
 
 /* service */
 .services {
   background-color: black;
 }
-.card h3 {
+.card-s h3 {
   text-align: center;
   font-size: large;
 }
@@ -156,7 +167,7 @@ button {
   align-items: center;
 }*/
 
-.column {
+.column-s {
   float: left;
   width: 33.33%;
   padding: 0, 10px;
@@ -169,7 +180,7 @@ button {
   clear: both;
 }
 
-.card {
+.card-s {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
   padding: 16px;
   text-align: center;
@@ -177,7 +188,7 @@ button {
 }
 
 @media screen and (max-width: 600px) {
-  .column {
+  .column-s {
     width: 100%;
     display: block;
     margin-bottom: 20px;
@@ -196,15 +207,15 @@ button {
   font-weight: bold;
   text-align: center;
   padding-top: 30px;
+  color: #f02c2c;
+  font-family: 'Courier New', Courier, monospace;
 }
 .column1 {
   float: left;
   width: 50%;
   text-align: center;
-  font-size: 23px;
 }
 .card-column1{
-  /*background-color: #814923;*/
   padding: 10px;
 }
 .column2 {
@@ -212,6 +223,12 @@ button {
   width: 50%;
   padding-right: 50px;
   padding-left: 20px;
+  padding-bottom: 20px;
+}
+.card-column2:hover {
+  color: #0b6312;
+  transition: 2s;
+  transition-delay: 0.4s;
 }
 .row-contact:after {
   content: "";
@@ -228,6 +245,7 @@ input[type=text], select, textarea {
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
+  border-radius: 4%;
 }
 
 input[type=submit] {
@@ -238,11 +256,13 @@ input[type=submit] {
   padding: 12px 20px;
   border: none;
   cursor: pointer;
-  border-radius: 5%;
+  border-radius: 4%;
 }
 
 input[type=submit]:hover {
   background-color: #45a049;
+  transition: 2s;
+  transition-delay: 0.3s;
 }
 
 /* Style the container/contact section */
@@ -260,15 +280,35 @@ input[type=submit]:hover {
 }
 
 /* get in touch styles*/
-.fa .info {
-  float: left;
-  width: 50%;
-}
-.user:after {
-  content: "";
-  display: table;
-  clear: both;
-
+.info {
+  float: right;
+  width: 70%;
 }
 
+._title {
+  text-align: left;
+  padding-top: 25px;
+  font-weight: bolder;
+  color: #808080;
+  font-size: 20px;
+}
+.sub_title {
+  text-align: left;
+  font-weight: lighter;
+  color: #808080;
+  font-size: 18px;
+}
+._title:hover{
+  color: #836e11;
+  transition: 2s;
+}
+.sub_title:hover {
+  color: #f0140c;
+  transition: 2s;
+}
+.card-column1:hover {
+  color: #0b6312;
+  transition: 2s;
+  transition-delay: 0.5s;
+}
 /* end contact section */

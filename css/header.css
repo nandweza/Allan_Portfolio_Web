@@ -11,6 +11,10 @@ header {
     color: white;
     text-shadow: 5px 5px 7px black;
 }
+.brand:hover {
+  color: red;
+  transition: 3s;
+}
 
 /* The sticky class is added to the header with JS when it reaches its scroll position */
 .sticky {
