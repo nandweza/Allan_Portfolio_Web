@@ -2,8 +2,20 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
+  line-height: 1.5;
+  min-height: 100vh;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
 }
 
 /* Style page content */
@@ -161,7 +173,7 @@ button {
 }
 .card-s h3 {
   text-align: center;
-  font-size: large;
+  font-size: 30px;
 }
 /*.card p {
   align-items: center;
@@ -182,9 +194,14 @@ button {
 
 .card-s {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-  padding: 16px;
+  padding: 30px;
   text-align: center;
   background-color: grey;
+}
+.card-s:hover {
+  color: black;
+  transition: 3s;
+  transition-delay: 0.1s;
 }
 
 @media screen and (max-width: 600px) {

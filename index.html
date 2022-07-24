@@ -42,11 +42,11 @@
     </a>
     <div class="touch">Get in touch<i class="fa fa-hand-o-down"></i></div>
     <div class="connect">
-      <i class="fa fa-whatsapp" style="font-size: 25px;"><a href="https://api.whatsapp.com/send?phone=256788266754"></a></i>
-      <i class="fa fa-twitter" style="font-size: 25px;"><a href="https://twitter.com/@allannandweza"></a></i>
-      <i class="fa fa-linkedin" style="font-size: 25px;"><a href="https://www.linkedin.com/in/nandweza-allan-054a21218/"></a></i>
-      <i class="fa fa-github" style="font-size: 25px;"><a href="https://github.com/nandweza"></a></i>
-      <i class="fa fa-medium" style="font-size: 25px;"><a href="https://medium.com/@allannandweza"></a></i>
+      <a href="https://api.whatsapp.com/send?phone=256788266754"><i class="fa fa-whatsapp" style="font-size: 25px;"></i></a>
+      <a href="https://twitter.com/@allannandweza"> <i class="fa fa-twitter" style="font-size: 25px;"></i></a>
+      <a href="https://www.linkedin.com/in/nandweza-allan-054a21218/"><i class="fa fa-linkedin" style="font-size: 25px;"></i></a>
+      <a href="https://github.com/nandweza"><i class="fa fa-github" style="font-size: 25px;"></i></a>
+      <a href="https://medium.com/@allannandweza"><i class="fa fa-medium" style="font-size: 25px;"></i></a>
     </div>
   </nav>
   <!--end of nav section-->
@@ -94,13 +94,13 @@
           <div class="card-content">
             <p>
               I' am the first born of the family of 3 children. I love Solving problems and being challenged,
-              I love astronomy and science related things. When I was a kid i wanted to be an astronant, and loved reseaserching about the universe and the solar system.
-              Apart from Coding I also love adventuring and oldies music.  
+              I love astronomy, technology and science related things. When I was a kid i wanted to be an astronant, and loved reseaserching about the universe and the solar system.
+              Apart from Coding I also love adventuring, football, movies(adventures and series.) and oldies music.  
             </p>
             <br>
             <br>
             <p>
-              <button>Download CV</button>
+              <a href="https://drive.google.com/file/d/1dFO0DEpBGWALvPaqywmeIZC0ee0RMDQ7/view?usp=sharing" target="_blank"><button>Download CV</button></a>
             </p>
           </div>
         </div>
@@ -169,15 +169,13 @@
             <div class="card-s">
               <i class="fa fa-code" style="font-size: 50px; font-weight: bolder;"></i>
               <h3>Am a Software Engineer &<br> Upcoming Backend Developer.</h3>
-              <br>
               <p>I love coding and working in the backend,<br> I also design & develop websites.</p>
             </div>
           </div>
           <div class="column-s">
-            <div class="card-s">
+            <div class="card-s" id="card-s" onclick="myClick()">
               <i class="fa fa-laptop" style="font-size: 50px; font-weight: bolder;"></i>
               <h3>Computer maintainance<br> & Troubleshooting</h3>
-              <br>
               <p>I do computer maintainance,<br> Troubleshooting, Error fixing<br> on all versions of windows,<br> application Installation &<br> Operating system Installation<br> such as Windows and linux....</p>
               <br>
             </div>
@@ -186,7 +184,6 @@
             <div class="card-s">
               <i class="fa fa-paint-brush" style="font-size: 50px; font-weight: bolder;" ></i>
               <h3>I do Graphic designing<br> & animations..</h3>
-              <br>
               <p>I design banners in all forms,<br> business cards, logos, bronchures,<br> video animations and much more graphics work...</p>
             </div>
           </div>
@@ -235,18 +232,20 @@
         </div>
         <div class="column2">
           <div class="card-column2">
-            <form action="/action_page.php">
-              <label for="fname">Name</label>
-              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            <form method="POST" action="https://formspree.io/f/mknydplr">
+              <label for="_name">Name</label>
+              <input type="text" id="_name" name="name" placeholder="Your name.." required>
               <br>
               <br>
               <label for="Eaddres">Email Address</label>
-              <input type="text" id="Eaddres" name="EmailAddress" placeholder="Your Email Address..">
+              <input type="text" id="Eaddres" name="EmailAddress" placeholder="Your Email Address.." required>
               <br>
               <br>
               <label for="subject">Subject</label>
               <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+              <div class="btn">
               <input type="submit" value="Send message">
+              </div>
             </form>
           </div>
         </div>
@@ -259,11 +258,11 @@
     <footer class="ftext">
       <div class="connect">
         <ul>
-          <li><a href="https://api.whatsapp.com/send?phone=256788266754" class="fa fa-whatsapp" style="font-size: 30px;"></a></li>
-          <li><a href="https://twitter.com/@allannandweza" class="fa fa-twitter" style="font-size: 30px;"></a></li>
-          <li><a href="https://www.linkedin.com/in/nandweza-allan-054a21218/" class="fa fa-linkedin" style="font-size: 30px;"></a></li>
-          <li><a href="https://github.com/nandweza" class="fa fa-github" style="font-size: 30px;"></a></li>
-          <li><a href="https://medium.com/@allannandweza" class="fa fa-medium" style="font-size: 30px;"></a></li>
+          <li><a href="https://api.whatsapp.com/send?phone=256788266754" class="fa fa-whatsapp" style="font-size: 30px;" target="_blank"></a></li>
+          <li><a href="https://twitter.com/@allannandweza" class="fa fa-twitter" style="font-size: 30px;" target="_blank"></a></li>
+          <li><a href="https://www.linkedin.com/in/nandweza-allan-054a21218/" class="fa fa-linkedin" style="font-size: 30px;" target="_blank"></a></li>
+          <li><a href="https://github.com/nandweza" class="fa fa-github" style="font-size: 30px;" target="_blank"></a></li>
+          <li><a href="https://medium.com/@allannandweza" class="fa fa-medium" style="font-size: 30px;" target="_blank"></a></li>
         </ul>
       </div>
       <div class="foot_text">
