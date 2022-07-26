@@ -1,5 +1,4 @@
 header {
-    /*background-color: rgb(168, 171, 156);*/
     padding-bottom: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serifs;
     font-weight: bold;
@@ -13,7 +12,8 @@ header {
 }
 .brand:hover {
   color: red;
-  transition: 3s;
+  transition: 2s;
+  transition-delay: 00.1s;
 }
 
 /* The sticky class is added to the header with JS when it reaches its scroll position */
