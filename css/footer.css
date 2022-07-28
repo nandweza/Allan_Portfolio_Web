@@ -55,3 +55,7 @@
   color: white;
   padding-top: 50px;
 }
+
+.foot_text a {
+  color: red;
+}

@@ -187,7 +187,7 @@ button {
 /* end skills section */
 
 /* service */
-.services {
+/*.services {
   background-color: black;
 }
 .card-s h3 {
@@ -209,7 +209,7 @@ button {
 }
 
 .card-s {
-  box-shadow: 0 4px 8px 0 rgb(252, 252, 252); /* this adds the "card" effect */
+  box-shadow: 0 4px 8px 0 rgb(252, 252, 252); /* this adds the "card" effect *
   padding: 30px;
   text-align: center;
   background-color: #353636;
@@ -235,7 +235,7 @@ button {
     display: block;
     margin-bottom: 20px;
   }
-}
+}*/
 /* END services */
 
 /* contact section*/

@@ -1,17 +1,17 @@
 header {
     padding-bottom: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serifs;
-    font-weight: bold;
+    font-weight: bolder;
 }
 .brand {
-    font-size: 30px;
+    font-size: 50px;
     padding-top: 20px;
     padding-left: 170px;
-    color: white;
+    color: red;
     text-shadow: 5px 5px 7px black;
 }
 .brand:hover {
-  color: red;
+  color: white;
   transition: 2s;
   transition-delay: 00.1s;
 }
