@@ -10,6 +10,12 @@
   <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/navbar.css">
   <link rel="stylesheet" href="css/about.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
   <title>Nandweza Allan</title>
   <script src="JS/index.js" defer></script>
@@ -17,17 +23,17 @@
 <body>
   <!--Header Section-->
   <header class="header" id="myHeader">
-      <div class="brand"><strong>Allan</strong></div>
+      <div class="brand"><strong>Nandweza Allan</strong></div>
   </header>
   <!--End of Header Section-->
 
   <!--beginning of nav section-->
-  <nav class="mynavbar">
+  <nav class="mynavbar w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
     <!-- Avatar image in top left corner -->
     <img src="images/allan2.jpg" alt="my picture.">      
     <a href="#home" class="navbar">
-    <i class="fa fa-home"></i>
-    <div>HOME</div>
+      <i class="fa fa-home"></i>
+      <div>HOME</div>
     </a>
     <a href="#about" class="navbar">
     <i class="fa fa-user"></i>
@@ -46,6 +52,17 @@
     <div>CONTACT</div>
     </a>
   </nav>
+
+  <!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#home" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#skills" class="w3-bar-item w3-button" style="width:25% !important">SKILLS</a>
+    <!--<a href="#services" class="w3-bar-item w3-button" style="width:25% !important">SERVICES</a>-->
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
   <!--end of nav section-->
   
   <!--main content-->
@@ -62,13 +79,10 @@
     <section class="abt" id="about">
       <div class="abt1">
         <h1>About me...</h1>
-        <p>I'm passionate about Software Engineering, Technology and Innovation.</p>
+        <p>I'm passionate about Software Engineering, Technology, Cyber Security, astronomy and Innovations. Am so much interested in solving real world problems with technolgy and my coding skills.</p>
       </div>
       <div class="abt2">
-        <p>A passionate Software Engineer with
-          self-driven and innovative interests in
-          solving real world problems with
-          technology. Seasoned IT professional
+        <p>Seasoned IT professional
           with exceptional leadership and
           project management skills.
           Well-organized, systematic and
@@ -89,12 +103,9 @@
         </div>
         <div class="column-content">
           <div class="card-content">
-            <p>I' am an IT Officer @p4t.org and kojo programming, IT Basics, and
-              Microsoft Office trainer.
-              I build responsive Websites and web applications, I do Graphic designing,
-              Computer maintainance and solve computer related issues.</p>
+            <p>I' am an IT Officer @p4t.org, trainer in kojo programming, IT Basics, and Microsoft Office. I build responsive Websites and web applications, I do Graphic designing, Computer maintainance and solve computer related issues.</p>
             <p>
-              Far from coding, am a fun of astronomy, adventuring, oldies music watching series and documentaries.
+              Far from coding, am a fun of astronomy, adventuring, oldies music, watching series and documentaries.
             </p>
             <br>
             <br>
@@ -250,6 +261,7 @@
         </div>
         <div class="column2">
           <div class="card-column2">
+            <br>
             <form method="POST" action="https://formspree.io/f/mknydplr">
               <label for="_name">Name</label>
               <input type="text" id="_name" name="name" placeholder="Your name.." required>

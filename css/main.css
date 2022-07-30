@@ -6,10 +6,11 @@ html {
   scroll-behavior: smooth;
 }
 
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+
 body {
   line-height: 1.5;
   min-height: 100vh;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 img,
@@ -30,12 +31,12 @@ picture {
   height: 600px;
 }
 .hello {
-  padding-top: 200px;
+  padding-top: 150px;
   text-align: center;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: lighter;
-  color: #f02c2c;
-  font-family: 'Courier New', Courier, monospace;
+  color: grey;
+  font-family: 'Tangerine', serif;
 }
 .mytxt1 {
   text-align: center;
@@ -83,16 +84,22 @@ picture {
   float: left;
   width: 40%;
   padding-left: 20px;
+  padding-bottom: 20px;
 }
 .card-img {
   width:  100%;
   height: auto;
 }
+
+.mypic img {
+  border-radius: 5%;
+}
 .column-content {
   float: right;
-  width: 50%;
-  padding-right: 100px;
-  padding-bottom: 100px;
+  width: 60%;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
 }
 .card-content {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -173,16 +180,16 @@ button {
   color: white;
 }
 
-.comp {width: 95%; background-color: #f02c2c;}
-.css {width: 90%; background-color: #f02c2c;}
-.js {width: 50%; background-color: #f02c2c;}
-.python {width: 85%; background-color: #f02c2c;}
-.c {width: 60%; background-color: #f02c2c;}
-.server {width: 85%; background-color: #f02c2c;}
-.git {width: 90%; background-color: #f02c2c;}
-.db {width: 70%; background-color: #f02c2c;}
-.illustrator {width: 90%; background-color: #f02c2c;}
-.photoshop {width: 70%; background-color: #f02c2c;}
+.comp {width: 95%; background-color: #756f6f;}
+.css {width: 90%; background-color: #756f6f;}
+.js {width: 50%; background-color: #756f6f;}
+.python {width: 85%; background-color: #756f6f;}
+.c {width: 60%; background-color: #756f6f;}
+.server {width: 85%; background-color: #756f6f;}
+.git {width: 90%; background-color: #756f6f;}
+.db {width: 70%; background-color: #756f6f;}
+.illustrator {width: 90%; background-color: #756f6f;}
+.photoshop {width: 70%; background-color: #756f6f;}
 
 /* end skills section */
 
@@ -244,11 +251,11 @@ button {
   background-color: black;
 }
 .me {
-  font-size: 30px;
-  font-weight: bold;
+  font-size: 40px;
+  font-weight: bolder;
   text-align: center;
   padding-top: 30px;
-  color: #f02c2c;
+  color: white;
   font-family: 'Courier New', Courier, monospace;
 }
 .column1 {
@@ -290,7 +297,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: red;
+  background-color: grey;
   color: white;
   font-size: larger;
   font-weight: bolder;
@@ -329,13 +336,13 @@ input[type=submit]:hover {
 ._title {
   text-align: left;
   padding-top: 25px;
-  font-weight: bolder;
+  font-weight: bold;
   color: white;
   font-size: 20px;
 }
 .sub_title {
   text-align: left;
-  font-weight: bolder;
+  font-weight: lighter;
   color: white;
   font-size: 18px;
 }
