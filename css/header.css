@@ -1,12 +1,14 @@
 header {
-    padding-bottom: 30px;
+    padding-bottom: 5px;
     font-weight: bolder;
+    background-color: rgb(46, 44, 44);
+    opacity: 0.6;
 }
 .brand {
     font-size: 50px;
-    padding-top: 20px;
+    padding-top: 10px;
     padding-left: 170px;
-    color: grey;
+    color: red;
     font-family: 'Tangerine', serif;
     text-shadow: 4px 4px 4px #aaa;
 }

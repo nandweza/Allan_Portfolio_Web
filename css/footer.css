@@ -57,5 +57,9 @@
 }
 
 .foot_text a {
-  color: #756f6f;
+  color: red;
+}
+
+.foot_text a:hover {
+  color: white;
 }

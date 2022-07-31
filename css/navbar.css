@@ -19,8 +19,8 @@
     display: block;
   }
 
-  .mynavbar .fa:hover {
-    color: white;
+  .mynavbar a:hover {
+    color: red;
   }
 
   .mynavbar img {
