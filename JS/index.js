@@ -15,7 +15,3 @@ function myFunction() {
     header.classList.remove("sticky");
   }
 }
-
-function myClick() {
-  document.getElementById("card-s").style.color = "red";
-}
