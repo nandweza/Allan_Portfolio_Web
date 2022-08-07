@@ -66,6 +66,7 @@ picture {
 .abt {
   background-color: black;
   height: 100%;
+  color: white;
 }
 .abt1 {
   padding-top: 10px;
@@ -146,14 +147,17 @@ button {
   height: auto;
 }
 #skills h2 {
-  font-size: 50px;
+  font-size: 30px;
   font-weight: bolder;
   text-align: center;
+  padding-top: 25px;
 }
 #skills p {
   font-size: 20px;
   font-weight: bold;
   text-align: center;
+  padding-top: 40px;
+  color: red;
 }
 .column-skill-a {
   width: 50%;
@@ -184,8 +188,8 @@ button {
 
 .skills {
   text-align: right;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   color: white;
 }
 
