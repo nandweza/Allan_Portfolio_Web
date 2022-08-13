@@ -11,11 +11,11 @@ header {
     padding-left: 170px;
     color: red;
     font-family: 'Tangerine', serif;
-    text-shadow: 4px 3px 2px white;
+    text-shadow: 2px 3px 2px white;
 }
 .brand:hover {
   color: white;
-  text-shadow: 4px 3px 2px red;
+  text-shadow: 2px 3px 2px red;
   transition: 2s;
   transition-delay: 00.1s;
 }
