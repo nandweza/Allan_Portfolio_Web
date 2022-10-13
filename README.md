@@ -1,6 +1,6 @@
 # My Portfolio Website.
 
-<img src="./wallpaper.png" width="100%">
+<img src="/images/wallpaper.png" width="100%">
 
 ## Description
 

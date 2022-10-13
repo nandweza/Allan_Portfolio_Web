@@ -69,6 +69,7 @@ ul {
 
 .mynavbar a:hover {
   color: var(--main-red);
+  text-decoration: none;
   background: linear-gradient(30deg, #3a3d40 0%, var(--main-black) 100%);
 }
 
@@ -359,6 +360,13 @@ button {
 .project-title {
   font-size: 2rem;
   padding: 2rem 0.5rem;
+  color: var(--main-white);
+}
+
+.project-title:hover {
+  color: var(--main-red);
+  text-decoration: none;
+  background-color: var(--main-black);
 }
 /* END Project section */
 
@@ -490,6 +498,7 @@ input[type=submit]:hover {
 .fa:hover {
   opacity: 0.7;
   color: var(--main-red);
+  text-decoration: none;
 }
 
 /* Whatsapp */
