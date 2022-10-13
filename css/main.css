@@ -200,7 +200,7 @@ button {
   font-size: larger;
   font-weight: bolder;
   background-color: var(--main-red);
-  border: 5%;
+  border-radius: 5px;
 }
 /* end */
 
@@ -408,7 +408,7 @@ input[type=text], select, textarea {
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
-  border-radius: 4%;
+  border-radius: 5px;
 }
 
 input[type=submit] {
@@ -419,7 +419,7 @@ input[type=submit] {
   padding: 12px 20px;
   border: 2px solid var(--main-gray);
   cursor: pointer;
-  border-radius: 4%;
+  border-radius: 5px;
 }
 
 input[type=submit]:hover {
@@ -439,6 +439,8 @@ input[type=submit]:hover {
   .column1, .column2, input[type=submit] {
     width: 100%;
     margin-top: 0;
+    margin: 0 auto;
+    font-size: 1.5rem;
   }
 }
 
