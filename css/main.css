@@ -21,7 +21,7 @@ html {
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Courier New', Courier, monospace;
   line-height: 1.5;
   min-height: 100vh;
   font-size: 1.8rem;
@@ -82,21 +82,10 @@ ul {
 /* screeens less than 700px wide, sidebar turn to topbar */
 @media (max-width: 700px) {
 .mynavbar {
-  width: 100%;
-  height: auto;
-  position: relative;
+  display: none;
 }
 .mynavbar a {float: left;}
 div.main {margin-left: 0;}
-}
-
-/* On screens > 400px, display the navbar vertically. */
-@media (max-height: 400px) {
-  .mynavbar a {
-    text-align: center;
-    font-size: 1rem;
-    float: none;
-  }
 }
 
 .nav-bar {
@@ -112,12 +101,26 @@ display: none!important;*/
 nav-bar a {
 float: left;
 display: block;
-color: white;
+color: var(--main-white);
 text-align: center;
 padding: 15px;
 text-decoration: none;
 }
-@media (max-width: 400px) {
+
+.small-nav {
+  display: none;
+  color: var(--main-white);
+}
+
+.small-nav a {
+  color: var(--main-white);
+}
+
+.small-nav a:hover {
+  color: var(--main-black);
+}
+
+@media (max-width: 700px) {
   .small-nav {
     display: flex;
     justify-content: center;
@@ -127,6 +130,7 @@ text-decoration: none;
     width: 100vw;
     color: var(--main-white);
     background-color: var(--main-red);
+    text-align: center;
   }
   .nav-list {
     display: flex;
@@ -155,6 +159,7 @@ text-decoration: none;
   height: 100vh;
   background: linear-gradient(30deg, #3a3d40 0%, var(--main-black) 100%);
 }
+
 .hello {
   font-size: 40px;
   font-weight: lighter;
@@ -167,8 +172,14 @@ text-decoration: none;
   color: white;
   text-shadow: 3px 3px black;
 }
+
+@media (max-width: 700px) {
+  .mytxt1 {
+    text-align: center;
+  }
+}
 .mytxt1:hover {
-  color: #f02c2c;
+  color: var(--main-red);
   transition: 4s;
   transition-delay: 0.2s;
 }
@@ -176,9 +187,20 @@ text-decoration: none;
   text-align: center;
   font-size: 25px;
   font-weight: bolder;
-  color: red;
+  color: var(--main-red);
   text-shadow: 2px 2px black;
-  padding-bottom: 300px;
+}
+
+.home a {
+  padding-bottom: 70px;
+}
+
+button {
+  padding: 10px;
+  font-size: larger;
+  font-weight: bolder;
+  background-color: var(--main-red);
+  border: 5%;
 }
 /* end */
 
@@ -186,80 +208,26 @@ text-decoration: none;
 .abt {
   background-color: var(--main-gray);
   height: 100vh;
-  color: white;
+  width: 100%;
+  color: var(--main-white);
+}
+
+.abt h2 {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 500;
+  font-family: 'Courier New', Courier, monospace;
+  padding-top: 15;
 }
 .abt1 {
   padding-top: 10px;
-  text-align: center;
-}
-.abt1 h1 {
-  font-size: 30px;
-  font-weight: bolder;
+  text-align: left;
 }
 .abt1 p {
-  font-size: 20px;
-}
-.abt2 {
-  font-size: 18px;
-  padding: 0 20px;
-}
-.quotes {
-  text-align: right;
-  font-size: 16px;
-  padding-right: 20px;
-}
-.column-image {
-  float: left;
-  width: 40%;
-  padding-left: 20px;
-  padding-bottom: 20px;
-}
-.card-img {
-  width:  100%;
-  height: auto;
+  font-size: 1.5rem;
+  margin: 0 20px;
 }
 
-.mypic img {
-  border-radius: 5%;
-}
-.column-content {
-  float: right;
-  width: 60%;
-  padding-right: 10px;
-  padding-left: 10px;
-  padding-bottom: 10px;
-}
-.card-content {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 30px;
-  color: white;
-  height: auto;
-  border-radius: 10%;
-}
-.card-content:hover {
-  background-color: #383737;
-  transition: 2s;
-  transition-delay: 0.1s;
-}
-.row-abt {
-  content: "";
-  display: table;
-  clear: both;
-}
-button {
-  padding: 10px;
-  font-size: larger;
-  font-weight: bolder;
-  background-color: #f02c2c;
-  border: 5%;
-}
-
-@media screen and (max-width: 700px) {
-  .column-image, .card-content {
-    width: 100%;
-    margin-top: 0;
-  }
-}
 /* End */
 
 /* skills section*/
@@ -272,19 +240,13 @@ button {
   text-align: center;
   padding-top: 25px;
 }
-#skills p {
-  font-size: 20px;
-  font-weight: bold;
-  text-align: center;
-  padding-top: 40px;
-  color: white;
-}
+
 .column-skill-a {
   width: 50%;
   float:left;
 }
 .card-skill-a {
-  background-color: black;
+  background: linear-gradient(#3a3d40 0%, var(--main-black) 100%);
   padding: 10px;
 }
 .column-skill-b {
@@ -292,7 +254,7 @@ button {
   float: right;
 }
 .card-skill-b {
-  background-color: black;
+  background: linear-gradient(#3a3d40 0%, var(--main-black) 100%);
   padding: 10px;
 }
 .row-skills:after {
@@ -303,92 +265,117 @@ button {
 /* Container for skill bars */
 .container {
   width: 100%; /* Full width */
-  background-color: #ddd;
+  opacity: 80%;
+  background-color: var(--main-gray);
 }
 
 .skills {
   text-align: right;
   padding-top: 0px;
   padding-bottom: 0px;
-  color: white;
+  color: var(--main-white);
 }
 
-.comp {width: 95%; background-color: red;}
-.css {width: 90%; background-color: red;}
-.js {width: 50%; background-color: red;}
-.python {width: 85%; background-color: red;}
-.c {width: 60%; background-color: red;}
-.server {width: 85%; background-color: red;}
-.git {width: 90%; background-color: red;}
-.db {width: 70%; background-color: red;}
-.illustrator {width: 90%; background-color: red;}
-.photoshop {width: 70%; background-color: red;}
+.comp {width: 95%; background-color: var(--main-red);}
+.css {width: 90%; background-color: var(--main-red);}
+.js {width: 50%; background-color: var(--main-red);}
+.python {width: 85%; background-color: var(--main-red);}
+.c {width: 60%; background-color: var(--main-red);}
+.server {width: 85%; background-color: var(--main-red);}
+.git {width: 90%; background-color: var(--main-red);}
+.db {width: 70%; background-color: var(--main-red);}
+.illustrator {width: 90%; background-color: var(--main-red);}
+.photoshop {width: 70%; background-color: var(--main-red);}
 
 /* end skills section */
 
-/* service */
-/*.services {
-  background-color: black;
-}
-.card-s h3 {
+/* Project section */
+.projects {
   text-align: center;
-  font-size: 30px;
+  padding: 10rem 2rem;
+  background: linear-gradient(30deg, #3a3d40 0%, var(--main-black) 100%);
+  
 }
 
-.column-s {
-  float: left;
-  width: 33.33%;
-  padding: 10px;
-}
-.services {margin: 0 -5px;}
-
-.services:after {
-  content: "";
-  display: table;
-  clear: both;
+.projects-header {
+  color: var(--main-white);
+  font-size: 4rem;
+  font-weight: 500;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: italic;
+  max-width: 640px;
+  margin: 0 auto 0rem auto;
 }
 
-.card-s {
-  box-shadow: 0 4px 8px 0 rgb(252, 252, 252); /* this adds the "card" effect *
-  padding: 30px;
-  text-align: center;
-  background-color: #353636;
-  border-radius: 5%;
-}
-.card-s:hover {
-  background-color: grey;
-  transition: 2s;
-  transition-delay: 0.1s;
-}
-
-#card-s1, #card-s2 {
-  height: 500px;
-}
-.card-s li {
-  text-align: justify;
-  list-style-type: armenian;
-}
-
-@media screen and (max-width: 600px) {
-  .column-s {
-    width: 100%;
-    display: block;
-    margin-bottom: 20px;
+@media (max-width: 29em) {
+  .projects-header {
+    font-size: 2.5rem;
   }
-}*/
-/* END services */
+}
+
+.line {
+  width: 70%;
+  border: 2px solid var(--main-red);
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 4rem;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+}
+
+@media (max-width: 700px) {
+  .projects {
+    padding: 6rem 1 rem;
+    overflow: scroll;
+  }
+
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.project {
+  background-color: var(--main-gray);
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 2.5px;
+}
+
+.project:hover {
+  width: 110%;
+  height: 120%;
+}
+
+.project-image {
+  height: calc(100% - 6.8rem);
+  width: 100%;
+  object-fit: cover;
+}
+
+.project-title {
+  font-size: 2rem;
+  padding: 2rem 0.5rem;
+}
+/* END Project section */
 
 /* contact section*/
 .contact {
   height: 100%;
-  background-color: black;
+  background-color: var(--main-black);
 }
 .me {
-  font-size: 40px;
-  font-weight: bolder;
   text-align: center;
-  padding-top: 30px;
-  color: red;
+  padding-top: 5px;
+  color: var(--main-white);
+}
+
+.me h2 {
+  font-size: 4rem;
+  font-weight: 500;
   font-family: 'Courier New', Courier, monospace;
 }
 .column1 {
@@ -406,11 +393,6 @@ button {
   padding-left: 20px;
   padding-bottom: 20px;
 }
-/*.card-column2:hover {
-  color: #0b6312;
-  transition: 2s;
-  transition-delay: 0.4s;
-}*/
 .row-contact:after {
   content: "";
   display: table;
@@ -431,11 +413,11 @@ input[type=text], select, textarea {
 
 input[type=submit] {
   background-color: rgb(228, 30, 30);
-  color: white;
+  color: var(--main-white);
   font-size: larger;
   font-weight: bolder;
   padding: 12px 20px;
-  border: 2px solid grey;
+  border: 2px solid var(--main-gray);
   cursor: pointer;
   border-radius: 4%;
 }
@@ -470,13 +452,80 @@ input[type=submit]:hover {
   text-align: left;
   padding-top: 25px;
   font-weight: bold;
-  color: white;
+  color: var(--main-white);
   font-size: 20px;
 }
 .sub_title {
   text-align: left;
   font-weight: lighter;
-  color: white;
+  color: var(--main-white);
   font-size: 18px;
 }
 /* end contact section */
+
+/* footer section */
+.ftext {
+  background-color: var(--main-black);
+  padding-bottom: 20px;
+}
+
+.connect {
+  text-align: center;
+}
+
+.connect li {
+  display: inline;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+  color: var(--main-red);
+}
+
+/* Whatsapp */
+.fa-whatsapp {
+  color: var(--main-white);
+}
+
+/* Twitter */
+.fa-twitter {
+  color: var(--main-white);
+}
+
+/* Linkedin */
+.fa-linkedin {
+  color: var(--main-white);
+}
+
+/* github */
+.fa-github {
+  color: var(--main-white);
+}
+
+/* medium */
+.fa-medium {
+  color: var(--main-white);
+}
+
+.foot_text {
+  text-align: center;
+  font-size: 14px;
+  color: var(--main-white);
+  padding-top: 50px;
+}
+
+.foot_text a {
+  color: var(--main-red);
+}
+
+.foot_text a:hover {
+  color: var(--main-white);
+}
