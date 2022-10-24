@@ -232,61 +232,59 @@ button {
 /* End */
 
 /* skills section*/
-#skills {
-  height: auto;
-}
-#skills h2 {
-  font-size: 30px;
-  font-weight: bolder;
-  text-align: center;
-  padding-top: 25px;
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 4rem;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+  color: linen;
 }
 
-.column-skill-a {
-  width: 50%;
-  float:left;
+@media (max-width: 700px) {
+  .abt {
+    padding: 6rem 1 rem;
+    overflow: scroll;
+  }
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
 }
-.card-skill-a {
-  background: linear-gradient(#3a3d40 0%, var(--main-black) 100%);
-  padding: 10px;
+
+.skills-grid h3 {
+  font-size: 1.8rem;
+  font-weight: 800;
 }
-.column-skill-b {
-  width: 50%;
-  float: right;
+
+.skills-grid li {
+  list-style-type: disc;
+  font-size: 1.2rem;
 }
-.card-skill-b {
-  background: linear-gradient(#3a3d40 0%, var(--main-black) 100%);
-  padding: 10px;
+
+.skills-grid hr {
+  background-color: linen;
 }
+
+.card-skills {
+  background: linear-gradient(30deg, #3a3d40 0%, var(--main-black) 100%);
+  margin: 0 auto;
+  border-radius: 5px;
+  height: 400px;
+  padding: 20px 40px;
+}
+
+.card-skills:hover {
+  border: 1px solid red;
+}
+
 .row-skills:after {
   content: "";
   display: table;
   clear: both;
 }
-/* Container for skill bars */
-.container {
-  width: 100%; /* Full width */
-  opacity: 80%;
-  background-color: var(--main-gray);
-}
-
-.skills {
-  text-align: right;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  color: var(--main-white);
-}
-
-.comp {width: 95%; background-color: var(--main-red);}
-.css {width: 90%; background-color: var(--main-red);}
-.js {width: 50%; background-color: var(--main-red);}
-.python {width: 85%; background-color: var(--main-red);}
-.c {width: 60%; background-color: var(--main-red);}
-.server {width: 85%; background-color: var(--main-red);}
-.git {width: 90%; background-color: var(--main-red);}
-.db {width: 70%; background-color: var(--main-red);}
-.illustrator {width: 90%; background-color: var(--main-red);}
-.photoshop {width: 70%; background-color: var(--main-red);}
 
 /* end skills section */
 
@@ -373,7 +371,7 @@ button {
 /* contact section*/
 .contact {
   height: 100%;
-  background-color: var(--main-black);
+  background-color: var(--main-gray);
 }
 .me {
   text-align: center;
@@ -475,7 +473,7 @@ input[type=submit]:hover {
 
 /* footer section */
 .ftext {
-  background-color: var(--main-black);
+  background: linear-gradient(30deg, #3a3d40 0%, var(--main-black) 100%);
   padding-bottom: 20px;
 }
 
