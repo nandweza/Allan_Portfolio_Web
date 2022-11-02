@@ -4,14 +4,17 @@
 
 ## Description
 
-This project is basically a portfolio website to show case my projects and Interact with other developers.
-The project was built with pure html and css, 
+This project is basically a portfolio website to show case my projects, Interact with other developers, and everyone.
+I built this project with pure html and css, because i wanted to solidify my understanding of html and css 
 
-### Project Link on github(codebase)
+## Technolgies
+`Html` `CSS`
+
+## Project Link on github(codebase)
 https://github.com/nandweza/Allan_Portfolio_Web
 
-### Deployed project on github pages.
+## Deployed project on github pages.
 https://nandweza.github.io/Allan_Portfolio_Web/
 
-### Contributors
-Nandweza Allan (allannandweza@gmail.com)
+## Authors
++ Nandweza Allan [Github](https://github.com/nandweza) [Gmail](allannandweza@gmail.com) [Yahoo](nandwezaallan@yahoo.com) [twitter](https://twitter.com/allannandweza) [LinkedIn](http://www.linkedin.com/in/nandweza-allan-054a21218)
