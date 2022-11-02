@@ -17,4 +17,4 @@ https://github.com/nandweza/Allan_Portfolio_Web
 https://nandweza.github.io/Allan_Portfolio_Web/
 
 ## Authors
-+ Nandweza Allan [Github](https://github.com/nandweza) [Gmail](allannandweza@gmail.com) [Yahoo](nandwezaallan@yahoo.com) [twitter](https://twitter.com/allannandweza) [LinkedIn](http://www.linkedin.com/in/nandweza-allan-054a21218)
++ Nandweza Allan [`Github`](https://github.com/nandweza) [`Gmail`](allannandweza@gmail.com) [`Yahoo`](nandwezaallan@yahoo.com) [`twitter`](https://twitter.com/allannandweza) [`LinkedIn`](http://www.linkedin.com/in/nandweza-allan-054a21218)
