@@ -57,6 +57,7 @@ ul {
   background-color: var(--main-gray);
   overflow: auto;
   padding: 0;
+  border: 2px solid white;
 }
 
 /* navigation bar links */
@@ -473,7 +474,8 @@ input[type=submit]:hover {
 
 /* footer section */
 .ftext {
-  background: linear-gradient(30deg, #3a3d40 0%, var(--main-black) 100%);
+  background-color: var(--main-gray);
+  /* background: linear-gradient(30deg, #3a3d40 0%, var(--main-black) 100%); */
   padding-bottom: 20px;
 }
 
