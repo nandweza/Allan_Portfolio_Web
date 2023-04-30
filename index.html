@@ -1,315 +1,362 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
-  <title>Nandweza Allan</title>
-  <script src="JS/index.js" defer></script>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital@1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Nandweza Allan</title>
+    <script src="JS/index.js" defer></script>
+  </head>
+  <body>
 
-  <!--beginning of nav section-->
-  <nav class="mynavbar">
-    <!-- Avatar image in top left corner -->
-    <img src="images/IMG_20221024_161051_156_4.jpg" alt="my picture.">      
-    <a href="#home" class="navbar">
-      <i class="fa fa-home"></i>
-      <div>HOME</div>
-    </a>
-    <a href="#about" class="navbar">
-    <i class="fa fa-user"></i>
-    <div>ABOUT</div>
-    </a>
-    <a href="#projects" class="navbar">
-    <i class="fa fa-bars"></i>
-    <div>PROJECTS</div>
-    </a>
-    <!--<a href="#services" class="navbar">
-    <i class="fa fa-wrench"></i>
-    <div>SERVICES</div>
-    </a>-->
-    <a href="#contact" class="navbar">
-    <i class="fa fa-envelope"></i>
-    <div>CONTACT</div>
-    </a>
-  </nav>
+    <!--beginning of nav section-->
 
-  <!-- Navbar on small screens (Hidden on medium and large screens) -->
-<div class="" id="myNavbar">
-  <div class="small-nav">
-    <a href="#home" class="nav-list" style="width:25% !important">HOME</a>
-    <a href="#about" class="nav-list" style="width:25% !important">ABOUT</a>
-    <a href="#projects" class="nav-list" style="width:25% !important">PROJECTS</a>
-    <!--<a href="#services" class="w3-bar-item w3-button" style="width:25% !important">SERVICES</a>-->
-    <a href="#contact" class="nav-list" style="width:25% !important">CONTACT</a>
-  </div>
-</div>
-  <!--end of nav section-->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light border-bottom" aria-label="Offcanvas navbar large">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Nandweza Allan</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2">
+          <span class="navbar-toggler-icon"></span>
+       </button>
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Nandweza Allan</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item p-3">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item p-3">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item p-3">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item p-3">
+                <a class="nav-link" href="https://docs.google.com/document/d/11ljovWPX_ztLxFJfFORFEM-9NqH6VTLBJsIeZkQRy_s/edit?usp=sharing" target="_blank">Resume</a>
+              </li>
+              <li class="nav-item p-3">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!--end of nav section-->
   
-  <!--main content-->
-  <div class="main">
-    <!--beginning home section-->
-    <section class="home" id="home">
-      <div class="hello">Hola!</div>      
-      <h1 class="mytxt1"><span class="mytxt2">I'm</span> Nandweza Allan.</h1>
-      <p>Software Engineer/Backend Developer.</p>
-      <a href="https://docs.google.com/document/d/11ljovWPX_ztLxFJfFORFEM-9NqH6VTLBJsIeZkQRy_s/edit?usp=sharing" target="_blank"><button>Download CV</button></a>
-    </section>
+    <!-- home section -->
+
+    <div class="home d-flex align-items-center justify-content-center" id="home">
+      <div class="">
+        <p class="text-center">Hola!</p>      
+        <h1 class="text-center">I'm Nandweza Allan.</h1>
+        <p class="text-center">Software Engineer/Backend Developer.</p>
+      </div>
+    </div>
+
     <!--end home section-->
 
     <!--About Section-->
-    <section class="abt" id="about">
-      <h2>About me...</h2>
-      <div class="abt1">
-        <p>I'm passionate about Software Engineering, 
-           Technology, astronomy, Innovations and solving problems.
-           I am a lifelong learner and very committed towards my projects and work. 
-           My major goal is to solve the real world problems with my software engineering skills.</p>
-        <p>I'm also a Seasoned IT professional
-          with exceptional leadership and
-          project management skills.
-          Well-organized, systematic and
-          diplomatic in building consensus and
-          spearheading teams.
-        </p>
-      </div>
-      <br>
-      <br>
-      <div class="skills-grid">
-        <div class="skills">
-          <div class="card-skills">
-            <h3>Programming Languages:</h3>
-            <ul>
-              <li>Python</li>
-              <li>Javascript</li>
-              <li>C programming</li>
-              <li>HTML/CSS</li>
-              <li>Kojo Programming.</li>
-            </ul>
-            <hr>
-            <h3>Frameworks:</h3>
-            <ul>
-              <li>Python Flask</li>
-              <li>NodeJs</li>
-              <li>React</li>
-              <li>Bootstrap</li>
-            </ul>
-            <hr>
-            <h3>DataBases:</h3>
-            <ul>
-              <li>MongoDB</li>
-              <li>MySQL</li>
-            </ul>
+    <div id="about">
+      <div class="row p-5 about">
+        <div class="col-lg-6 pt-5">
+          <div class="card pt-5">
+            <img class="img-responsive m-auto" src="./images/allan.png" alt="Allan" width="100">
           </div>
         </div>
-        <div class="skills">
-          <div class="card-skills">
-            <h3>Servers:</h3>
-            <ul>
-              <li>Nginx</li>
-            </ul>
-            <hr>
-            <h3>Operating Systems:</h3>
-            <ul>
-              <li>Linux(Ubuntu)</li>
-              <li>Windows</li>
-            </ul>
-            <hr>
-            <h3>Tools:</h3>
-            <ul>
-              <li>Postman</li>
-              <li>Git and Version Control</li>
-              <li>Trello</li>
-            </ul>
-            <hr>
-            <h3>Graphics:</h3>
-            <ul>
-              <li>Illustrator</li>
-              <li>Photoshop</li>
-            </ul>
+        <div class="col-lg-6 p-3 pt-5">
+          <div class="row-title">
+            <h3 class="pt-5">About Me</h3>
+            <hr class="w-25">
+          </div>
+          <div class="content">
+            <p>
+              Hi there, my name is Nandweza Allan. I am a software engineer with a passion 
+              for building innovative solutions. I specialize in Python, and JavaScript, 
+              and I love solving complex problems through code.
+            </p>
+            <p>
+              Apart from coding, I enjoy travelling, learning about astronomy and staying up-to-date 
+              with the latest technologies. I believe that continuous learning is 
+              essential in this ever-evolving field, and I'm always eager to learn something new.
+            </p>
+            <p>
+              I'm a strong believer in teamwork and collaboration, and I thrive in an environment 
+              where everyone's ideas are valued. I'm excited to work with like-minded individuals 
+              who are passionate about creating innovative solutions that make a difference.
+            </p>
           </div>
         </div>
       </div>
-    </section>
+      <div class="row p-5 tech-stack">
+        <div class="row-title">
+          <h3>My Tech Stack</h3>
+          <hr class="w-25">
+        </div>
+        <p>Below are technologies, frameworks and languages I work with</p>
+        <div class="col-lg-4">
+          <i class="fa fa-chevron-right"></i>
+          <span>JAVASCRIPT</span>
+          <br>
+          <i class="fa fa-chevron-right"></i>
+          <span>REACT</span>
+          <br>
+          <i class="fa fa-chevron-right"></i>
+          <span>NODEJS</span>
+          <br>
+          <i class="fa fa-chevron-right"></i>
+          <span>MONGODB</span>
+        </div>
+        <div class="col-lg-4">
+          <i class="fa fa-chevron-right"></i>
+          <span>PYTHON</span>
+          <br>
+          <i class="fa fa-chevron-right"></i>
+          <span>FLASK</span>
+          <br>
+          <i class="fa fa-chevron-right"></i>
+          <span>C LANGUAGE</span>
+          <br>
+          <i class="fa fa-chevron-right"></i>
+          <span>MySQL</span>
+        </div>
+        <div class="col-lg-4">
+          <i class="fa fa-chevron-right"></i>
+          <span>HTML/CSS</span>
+          <br>
+          <i class="fa fa-chevron-right"></i>
+          <span>BOOTSTRAP</span>
+          <br>
+          <i class="fa fa-chevron-right"></i>
+          <span>POSTMAN</span>
+          <br>
+          <i class="fa fa-chevron-right"></i>
+          <span>WORDPRESS</span>
+        </div>
+      </div>
+      <div class="row p-5 services">
+        <div class="row-title">
+          <h3 class="">My Services</h3>
+          <hr class="w-25 pb-5">
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+          <div class="card text-center">
+            <i class="fa fa-code"></i>
+            <h4>Web App Development</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis molestias.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+          <div class="card text-center">
+            <i class="fa fa-adjust"></i>
+            <h4>Website Design</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis molestias.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+          <div class="card text-center">
+            <i class="fa fa-file"></i>
+            <h4>Website Management</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis molestias.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+          <div class="card text-center">
+            <i class="fa fa-server"></i>
+            <h4>Web Hosting</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis molestias.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+          <div class="card text-center">
+            <i class="fa fa-database"></i>
+            <h4>DataBase Development</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis molestias.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+          <div class="card text-center">
+            <i class="fa fa-gear"></i>
+            <h4>API Development</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis molestias.</p>
+          </div>
+        </div>
+      </div>
+    </div>
     <!--End About Section-->
 
     <!--Project Section-->
-    <section id="projects" class="projects">
-      <hr class="line">
-      <h2 class="projects-header">These are some of my Projects.</h2>
-      <hr class="line">
-      <div class="project-grid">
-        <a 
-          href="https://happytimes.onrender.com/"
-          target="_blank"
-          class="project project-title"
-        >
-          <img
-            class="project-image"
-            src="images/happytimes.png"
-            alt="project"
-          />
-          <p class="project-title">
-            HappyTimes
-          </p>
-        </a>
-        <a 
-          href="https://go-use-tech.onrender.com"
-          target="_blank"
-          class="project project-title"
-        >
-          <img
-            class="project-image"
-            src="images/go-use-tech.png"
-            alt="project"
-          />
-          <p class="project-title">
-            Go-use Tech
-          </p>
-        </a>
-        <a 
-            href=""
-            target="_blank"
-            class="project project-title"
-        >
-          <img
-            class="project-image"
-            src="images/myBirthday.png"
-            alt="project"
-          />
-          <p class="project-title">
-            myBirthday
-          </p>
-        </a>
-        <a 
-          href=""
-          target="_blank"
-          class="project project-title"
-        >
-          <img
-            class="project-image"
-            src="https://media.istockphoto.com/photos/kampala-city-picture-id1256870479?k=20&m=1256870479&s=612x612&w=0&h=f8BBs4WzVyCkkcYy3crJMcgBSBEcUNVsiinLuc23FlU="
-            alt="project"
-          />
-          <p class="project-title">
-            Coming soon....
-          </p>
-        </a>
-        <a 
-          href=""
-          target="_blank"
-          class="project project-title"
-        >
-          <img
-            class="project-image"
-            src="https://media.istockphoto.com/photos/kampala-city-picture-id1256870479?k=20&m=1256870479&s=612x612&w=0&h=f8BBs4WzVyCkkcYy3crJMcgBSBEcUNVsiinLuc23FlU="
-            alt="project"
-          />
-          <p class="project-title">
-            Coming soon....
-          </p>
-        </a>
-        <a 
-          href=""
-          target="_blank"
-          class="project project-title"
-        >
-          <img
-            class="project-image"
-            src="https://media.istockphoto.com/photos/kampala-city-picture-id1256870479?k=20&m=1256870479&s=612x612&w=0&h=f8BBs4WzVyCkkcYy3crJMcgBSBEcUNVsiinLuc23FlU="
-            alt="project"
-          />
-          <p class="project-title">
-            Coming soon....
-          </p>
-        </a>
+    <div id="portfolio">
+      <div class="row portfolio pt-5">
+        <div class="row-title pt-5">
+          <h3 class="pt-5">Portfolio</h3>
+          <hr class="w-25">
+          <p>Some of my projects</p>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+          <div class="card">
+            <img src="/images/gousetech.png" alt="go usetech wallpaper" class="img-responsive">
+            <div class="desc">
+              <h4 class="text-center pt-2">Go UseTech</h4>
+              <p class="text-center">Web App</p>
+              <span class="pb-3">
+                <a href="https://github.com/nandweza/Go-use_Tech" target="_blank" title="GITHUB">
+                  <i class="fa fa-plus"></i>
+                </a>
+                <a href="https://go-use-tech.onrender.com" target="_blank" title="LIVE">
+                  <i class="fa fa-link"></i>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+          <div class="card">
+            <img src="/images/happytimes.png" alt="happytimes wallpaper" class="img-responsive">
+            <div class="desc">
+              <h4 class="text-center pt-2">HappyTimes</h4>
+              <p class="text-center">Web App</p>
+              <span class="pb-3">
+                <a href="https://github.com/nandweza/HappyTimes" target="_blank" title="GITHUB">
+                  <i class="fa fa-plus"></i>
+                </a>
+                <a href="https://happytimes.onrender.com" target="_blank" title="LIVE">
+                  <i class="fa fa-link"></i>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+          <div class="card">
+            <img src="/images/mybirthday.png" alt="myBirthday wallpaper" class="img-responsive">
+            <div class="desc">
+              <h4 class="text-center pt-2">myBirthday</h4>
+              <p class="text-center">Web App</p>
+              <span class="pb-3">
+                <a href="https://github.com/nandweza/myBirthday" target="_blank" title="GITHUB">
+                  <i class="fa fa-plus"></i>
+                </a>
+                <a href="https://mybirthday-ieej.onrender.com/" target="_blank" title="LIVE">
+                  <i class="fa fa-link"></i>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+          <div class="card">
+            <img src="/images/upldk.png" alt="upldk wallpaper" class="img-responsive">
+            <div class="desc">
+              <h4 class="text-center pt-2">UPLD</h4>
+              <p class="text-center">WordPress Site</p>
+              <span class="pb-3">
+                <!-- <a href="" target="_blank" title="GITHUB">
+                  <i class="fa fa-plus"></i>
+                </a> -->
+                <a href="https://upldk.com/" target="_blank" title="LIVE">
+                  <i class="fa fa-link"></i>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+          <div class="card">
+            <img src="/images/husa.png" alt="husa wallpaper" class="img-responsive">
+            <div class="desc">
+              <h4 class="text-center pt-2">HUSA</h4>
+              <p class="text-center">WordPress Site</p>
+              <span class="pb-4">
+                <!-- <a href="" target="_blank" title="GITHUB">
+                  <i class="fa fa-plus"></i>
+                </a> -->
+                <a href="https://humanitarianservicesaction.org/" target="_blank" title="LIVE">
+                  <i class="fa fa-link"></i>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+          <div class="card">
+            <img src="/images/hms.png" alt="hms wallpaper" class="img-responsive">
+          </div>
+        </div> -->
       </div>
-    </section>
+    </div>
     <!--End Project Section-->
 
     <!--Contact section-->
-    <section class="contact" id="contact">
-      <div class="me">
-        <h2>Contact me</h2>
-      </div>
-      <div class="row-contact">
-        <div class="column1">
-          <div class="card-column1">
-            <div class="user">
-              <i class="fa fa-user" style="font-size: 45px; color: white;"></i>
-              <div class="info">
-                <div class="_title">Name:</div>
-                <div class="sub_title">Nandweza Allan</div>
-              </div>
-            </div>
-            <div class="address">
-              <i class="fa fa-map-marker" style="font-size: 45px; color: white;"></i>
-              <div class="info">
-                <div class="_title">Location:</div>
-                <div class="sub_title">Kampala, Uganda.</div>
-              </div>
-            </div>
-            <div class="phone">
-              <i class="fa fa-phone-square" style="font-size: 45px; color: white;"></i>
-              <div class="info">
-                <div class="_title">Call:</div>
-                <div class="sub_title">+256788266754</div>
-            </div>
-            </div>
-            <div class="email">
-              <i class="fa fa-envelope" style="font-size: 45px; color: white;"></i>
-              <div class="info">
-                <div class="_title">Email:</div>
-                <div class="sub_title">nandwezaallan@yahoo.com</div>
-              </div>
-            </div>
-          </div>
+    <div id="contact">
+      <div class="row contact pt-5 pb-5">
+        <div class="row-title pt-5">
+          <h3 class="pt-5">Contact</h3>
+          <hr class="w-25">
+          <p>Let's get in touch</p>
         </div>
-        <div class="column2">
-          <div class="card-column2">
-            <br>
-            <form method="POST" action="https://formspree.io/f/mknydplr">
-              <label for="_name">Name</label>
-              <input type="text" id="_name" name="name" placeholder="Your name.." required>
-              <br>
-              <br>
-              <label for="Eaddres">Email Address</label>
-              <input type="text" id="Eaddres" name="EmailAddress" placeholder="Your Email Address.." required>
-              <br>
-              <br>
-              <label for="subject">Subject</label>
-              <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
-              <input type="submit" value="Send message" class="btn">
-            </form>
-          </div>
+        <div class="col-lg-6 pt-5">
+          <span class="">
+            <i class="fa fa-map-marker"></i>
+            Kampala Ug.
+          </span>
+          <br>
+          <br>
+          <span class="">
+            <i class="fa fa-phone-square"></i>
+            +256788266754
+          </span>
+          <br>
+          <br>
+          <span>
+            <i class="fa fa-envelope"></i>
+            nandwezaallan@yahoo.com
+          </span>
+          <br>
+          <br>
+          <br>
+          <span class="pt-5">
+            <a href="" class="fa fa-facebook-square" style="font-size: 25px;" target="_blank"></a>
+            <a href="https://twitter.com/@allannandweza" class="fa fa-twitter" style="font-size: 25px;" target="_blank"></a>
+            <a href="https://www.linkedin.com/in/nandweza-allan-054a21218/" class="fa fa-linkedin-square" style="font-size: 25px;" target="_blank"></a>
+            <a href="https://github.com/nandweza" class="fa fa-github" style="font-size: 25px;" target="_blank"></a>
+            <a href="https://medium.com/@allannandweza" class="fa fa-medium" style="font-size: 25px;" target="_blank"></a>
+          </span>
+        </div>
+        <div class="col-lg-6">
+          <form action="#" method="post" class="px-5 pb-5">
+            <div class="form-group">
+              <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+              <input type="text" name="email" id="email" class="form-control" placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+              <input type="text" name="subject" id="subject" class="form-control" placeholder="Subject">
+            </div>
+            <div class="form-group">
+              <textarea name="message" id="message" cols="30" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-lg p-3">Send Message</button>
+          </form>
         </div>
       </div>
-    </section>
+    </div>
     <!--End Contact Section-->
-  </div>
 
     <!--footer section-->
-    <footer class="ftext">
-      <div class="connect">
-        <ul>
-          <li><a href="https://api.whatsapp.com/send?phone=256788266754" class="fa fa-whatsapp" style="font-size: 30px;" target="_blank"></a></li>
-          <li><a href="https://twitter.com/@allannandweza" class="fa fa-twitter" style="font-size: 30px;" target="_blank"></a></li>
-          <li><a href="https://www.linkedin.com/in/nandweza-allan-054a21218/" class="fa fa-linkedin" style="font-size: 30px;" target="_blank"></a></li>
-          <li><a href="https://github.com/nandweza" class="fa fa-github" style="font-size: 30px;" target="_blank"></a></li>
-          <li><a href="https://medium.com/@allannandweza" class="fa fa-medium" style="font-size: 30px;" target="_blank"></a></li>
-        </ul>
-      </div>
+    <footer class="border-top pb-3">
       <div class="foot_text">
-        <p>Created By <a href="https://github.com/nandweza/Allan_Portfolio_Web.git" target="_blank">Nandweza Allan</a> &copy;<script>document.write( new Date().getFullYear() );</script> | All Rights Reserved.</p>
+        <p class="text-center pt-5">&copy;<script>document.write( new Date().getFullYear() );</script> Nandweza Allan</p>
       </div>
     </footer>
 </body>

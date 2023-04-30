@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --main-black: #181719;
+  --main-gray: #303841;
+  --main-red: rgb(209, 22, 22);
+  --main-white: white;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 65%;
+}
+
+@media (max-width: 75em) {
+  html {
+    font-size: 57%;
+  }
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  line-height: 1.5;
+  min-height: 100vh;
+  font-size: 1.8rem;
+}
+
+h1,h2,h3,h4,h5,h6 {font-family: "Montserrat"}
+
+img,
+picture {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.navbar-brand {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+/* Home section*/
+.home {
+  height: 100vh;
+  background-color: whitesmoke;
+  color: #181719;
+  /* background-image: url("https://images.pexels.com/photos/4792717/pexels-photo-4792717.jpeg?auto=compress&cs=tinysrgb&w=400");
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+
+/* end */
+
+/* About Section*/
+#about,
+.portfolio,
+.contact {
+  color: #181719;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.about img {
+  width: 400px;
+}
+
+.row-title h3 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+#about h4,
+#portfolio h4 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.services .fa {
+  font-size: 5rem;
+  margin: 0 auto;
+}
+
+.services .card {
+  padding: 0;
+}
+
+/* Portfolio section */
+
+#portfolio {
+  background-color: #f2f2f2;
+}
+
+.portfolio span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.portfolio a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.portfolio i {
+  margin: 0 5px; /* adjust the margin as needed */
+}
+
+
+/* END Portfolio section */
+
+/* contact section*/
+.contact span a {
+  color: #181719;
+}
+
+.contact .fa {
+  font-size: 4rem;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  border-radius: 5px;
+}
+
