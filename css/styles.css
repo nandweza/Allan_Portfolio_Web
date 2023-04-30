@@ -4,8 +4,7 @@
 
 :root {
   --main-black: #181719;
-  --main-gray: #303841;
-  --main-red: rgb(209, 22, 22);
+  --main-red: rgb(226, 66, 66);
   --main-white: white;
 }
 
@@ -44,16 +43,34 @@ ul {
   list-style: none;
 }
 
+hr {
+  color: var(--main-red);
+  
+}
+
 .navbar-brand {
   font-size: 3rem;
   font-weight: 600;
+  padding-left: 20px;
+}
+
+.navbar-brand:hover {
+  color: var(--main-red);
+}
+
+.nav-link:active {
+  color: var(--main-red);
+}
+
+.nav-link:hover {
+  color: var(--main-red);
 }
 
 /* Home section*/
 .home {
   height: 100vh;
   background-color: whitesmoke;
-  color: #181719;
+  color: var(--main-red);
   /* background-image: url("https://images.pexels.com/photos/4792717/pexels-photo-4792717.jpeg?auto=compress&cs=tinysrgb&w=400");
   background-repeat: no-repeat;
   background-size: cover; */
@@ -71,7 +88,9 @@ ul {
 /* end */
 
 /* About Section*/
-#about,
+.about,
+.tech-stack,
+.services,
 .portfolio,
 .contact {
   color: #181719;
@@ -94,7 +113,12 @@ ul {
   font-weight: 600;
 }
 
+.tech-stack .fa {
+  color: var(--main-red);
+}
+
 .services .fa {
+  color: var(--main-red);
   font-size: 5rem;
   margin: 0 auto;
 }
@@ -104,7 +128,7 @@ ul {
 }
 
 /* Portfolio section */
-
+#tech-stack,
 #portfolio {
   background-color: #f2f2f2;
 }
@@ -119,6 +143,11 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: var(--main-red);
+}
+
+.portfolio a:hover {
+  color: var(--main-black);
 }
 
 .portfolio i {
@@ -135,6 +164,24 @@ ul {
 
 .contact .fa {
   font-size: 4rem;
+  color: var(--main-red);
+}
+
+.social [class*="fa fa-"] {
+  background-color: #333;
+  border-radius: 50px;
+  color: #fff;
+  display: inline-block;
+  height: 50px;
+  line-height: 50px;
+  margin: auto 3px;
+  width: 50px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.social .fa:hover { 
+  background-color: var(--main-red); 
 }
 
 /* Style inputs */
@@ -146,5 +193,18 @@ input[type=text], select, textarea {
   margin-bottom: 16px;
   resize: vertical;
   border-radius: 5px;
+}
+
+input::-webkit-input-placeholder {
+  font-size: 1.5rem;
+  line-height: 3;
+}
+
+textarea::placeholder {
+  font-size: 1.5rem;
+}
+
+.btn:hover {
+  background-color: var(--main-red);
 }
 
