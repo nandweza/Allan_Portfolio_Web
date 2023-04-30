@@ -59,6 +59,15 @@ ul {
   background-size: cover; */
 }
 
+.home h1 {
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.home p {
+  font-size: 3rem;
+}
+
 /* end */
 
 /* About Section*/
