@@ -19,7 +19,8 @@
 
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light border-bottom" aria-label="Offcanvas navbar large">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Nandweza Allan</a>
+        <a class="navbar-brand brand-lg" href="#">Nandweza Allan</a>
+        <a class="navbar-brand brand-sm" href="#">NA</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2">
           <span class="navbar-toggler-icon"></span>
        </button>
@@ -67,19 +68,18 @@
 
     <!--About Section-->
     <div id="about">
-      <div class="row p-5 about">
-        <div class="col-lg-6 pt-5">
+      <div class="row p-5 about section-layout p-5">
+        <div class="col-lg-5 pt-5">
           <div class="card pt-5">
-            <img class="img-responsive m-auto" src="./images/allan.png" alt="Allan" width="100">
+            <img class="img-responsive m-auto" src="./images/allan.png" alt="Allan">
           </div>
         </div>
-        <div class="col-lg-6 p-3 pt-5">
-          <div class="row-title">
-            <h3 class="pt-5">About Me</h3>
-            <hr class="w-25">
+        <div class="col-lg-6 p-3 pt-5 about-me">
+          <div class="row-title pb-5">
+            <h3 class="pt-3 pb-2">About Me<span></span></h3>
           </div>
-          <div class="content">
-            <p>
+          <div class="content pb-5">
+            <!-- <p>
               Hi there, my name is Nandweza Allan. I am a software engineer with a passion 
               for building innovative solutions. I specialize in Python, and JavaScript, 
               and I love solving complex problems through code.
@@ -88,23 +88,26 @@
               Apart from coding, I enjoy travelling, learning about astronomy and staying up-to-date 
               with the latest technologies. I believe that continuous learning is 
               essential in this ever-evolving field, and I'm always eager to learn something new.
-            </p>
+            </p> -->
             <p>
-              I'm a strong believer in teamwork and collaboration, and I thrive in an environment 
-              where everyone's ideas are valued. I'm excited to work with like-minded individuals 
-              who are passionate about creating innovative solutions that make a difference.
+              Hi there, my name is Nandweza Allan. I am a  software engineer with keen 
+              interest in the Backend Development. 
+              I am passionate about building innovative solutions and problem-solving.</p>
+            <p>Apart from coding I enjoy travelling, astronomy, and keeping up with the 
+              latest tech. I believing in continuous learning, teamwork, and collaboration, 
+              I seek to work with like-minded individuals to create innovative solutions that 
+              make a difference.
             </p>
           </div>
         </div>
       </div>
-      <div id="tech-stack">
-        <div class="row p-5 tech-stack">
-          <div class="row-title">
-            <h3>My Tech Stack</h3>
-            <hr class="w-25">
+      <div id="tech-stack" class="section-bg">
+        <div class="row p-5 tech-stack section-layout p-5">
+          <div class="row-title pb-5">
+            <h3 class="pb-2">My Tech Stack<span></span></h3>
           </div>
           <p class="pb-5">Below are technologies, frameworks and languages I work with</p>
-          <div class="col-lg-4">
+          <div class="col-lg-4 col-md-4 col-sm-12">
             <i class="fa fa-chevron-right"></i>
             <span>JAVASCRIPT</span>
             <br>
@@ -120,8 +123,7 @@
             <i class="fa fa-chevron-right"></i>
             <span>MONGODB</span>
           </div>
-          <br>
-          <div class="col-lg-4">
+          <div class="col-lg-4 col-md-4 col-sm-12 pt-5">
             <i class="fa fa-chevron-right"></i>
             <span>PYTHON</span>
             <br>
@@ -137,7 +139,7 @@
             <i class="fa fa-chevron-right"></i>
             <span>MySQL</span>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-4 col-md-4 col-sm-12 pt-5">
             <i class="fa fa-chevron-right"></i>
             <span>HTML/CSS</span>
             <br>
@@ -155,51 +157,52 @@
           </div>
         </div>
       </div>
-      <div class="row p-5 services">
-        <div class="row-title">
-          <h3 class="">My Services</h3>
-          <hr class="w-25 pb-5">
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-12 p-3">
-          <div class="card text-center">
-            <i class="fa fa-code py-5"></i>
-            <h4>Web App Development</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis molestias.</p>
+      <div class="section-bg">  
+        <div class="row p-5 services section-layout p-5">
+          <div class="row-title pb-5">
+            <h3 class="pb-2">My Services<span></span></h3>
           </div>
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-12 p-3">
-          <div class="card text-center">
-            <i class="fa fa-adjust py-5"></i>
-            <h4>Website Design</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis molestias.</p>
+          <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+            <div class="card text-center">
+              <i class="fa fa-code py-5"></i>
+              <h4>Web App Development</h4>
+              <p>Professional app development services to boost your business's growth.</p>
+            </div>
           </div>
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-12 p-3">
-          <div class="card text-center">
-            <i class="fa fa-file py-5"></i>
-            <h4>Website Management</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis molestias.</p>
+          <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+            <div class="card text-center">
+              <i class="fa fa-adjust py-5"></i>
+              <h4>Website Design</h4>
+              <p>Elevate your brand with our custom website design and development services.</p>
+            </div>
           </div>
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-12 p-3">
-          <div class="card text-center">
-            <i class="fa fa-server py-5"></i>
-            <h4>Web Hosting</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis molestias.</p>
+          <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+            <div class="card text-center">
+              <i class="fa fa-file py-5"></i>
+              <h4>Website Management</h4>
+              <p>Effortlessly manage and maintain your website for optimal performance.</p>
+            </div>
           </div>
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-12 p-3">
-          <div class="card text-center">
-            <i class="fa fa-database py-5"></i>
-            <h4>DataBase Development</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis molestias.</p>
+          <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+            <div class="card text-center">
+              <i class="fa fa-server py-5"></i>
+              <h4>Web Hosting</h4>
+              <p>Reliable web hosting for uninterrupted online presence and performance.</p>
+            </div>
           </div>
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-12 p-3">
-          <div class="card text-center">
-            <i class="fa fa-gear py-5"></i>
-            <h4>API Development</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis molestias.</p>
+          <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+            <div class="card text-center">
+              <i class="fa fa-database py-5"></i>
+              <h4>DataBase Development</h4>
+              <p>Expert database development for seamless and efficient data management.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+            <div class="card text-center">
+              <i class="fa fa-gear py-5"></i>
+              <h4>API Development</h4>
+              <p>Custom API development for seamless integration and automation.</p>
+            </div>
           </div>
         </div>
       </div>
@@ -207,11 +210,10 @@
     <!--End About Section-->
 
     <!--Project Section-->
-    <div id="portfolio">
-      <div class="row portfolio pt-5">
-        <div class="row-title pt-5">
-          <h3 class="pt-5">Portfolio</h3>
-          <hr class="w-25">
+    <div id="portfolio" class="section-bg">
+      <div class="row portfolio section-layout p-5 pt-5 pb-5">
+        <div class="row-title pt-5 pb-5">
+          <h3 class="pt-5 pb-2">Portfolio<span></span></h3>
           <p>Some of my projects</p>
         </div>
         <div class="col-lg-4 col-md-6 col-sm-12 p-3">
@@ -299,24 +301,39 @@
             </div>
           </div>
         </div>
-        <!-- <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+        <div class="col-lg-4 col-md-6 col-sm-12 p-3">
           <div class="card">
-            <img src="/images/hms.png" alt="hms wallpaper" class="img-responsive">
+            <img src="./images/wezesha.png" alt="wezesha wallpaper" class="img-responsive">
+            <div class="desc">
+              <h4 class="text-center pt-2">WEZESHA</h4>
+              <p class="text-center">WordPress Site</p>
+              <span class="pb-4">
+                <!-- <a href="" target="_blank" title="GITHUB">
+                  <i class="fa fa-plus"></i>
+                </a> -->
+                <a href="http://wezeshawomen.org/" target="_blank" title="LIVE">
+                  <i class="fa fa-link"></i>
+                </a>
+              </span>
+            </div>
           </div>
-        </div> -->
+        </div>
       </div>
     </div>
     <!--End Project Section-->
 
     <!--Contact section-->
-    <div id="contact">
-      <div class="row contact pt-5 pb-5">
-        <div class="row-title pt-5">
-          <h3 class="pt-5">Contact</h3>
-          <hr class="w-25">
+    <div id="contact" class="section-bg">
+      <div class="row-title pt-5 pb-5 contact-sm">
+        <h3 class="pt-5 pb-2">Contact<span></span></h3>
+        <p>Let's get in touch</p>
+      </div>
+      <div class="row contact section-layout p-5 pt-5 pb-5">
+        <div class="row-title pt-5 pb-5 contact-lg">
+          <h3 class="pt-5 pb-2">Contact<span></span></h3>
           <p>Let's get in touch</p>
         </div>
-        <div class="col-lg-6 pt-5">
+        <div class="col-lg-6 col-md-6 pt-5">
           <span class="">
             <i class="fa fa-map-marker"></i>
             Kampala Ug.
@@ -337,14 +354,14 @@
           <br>
           <br>
           <span class="pt-5 social">
-            <a href="" class="fa fa-facebook" style="font-size: 25px;" target="_blank"></a>
-            <a href="https://twitter.com/@allannandweza" class="fa fa-twitter" style="font-size: 25px;" target="_blank"></a>
-            <a href="https://www.linkedin.com/in/nandweza-allan-054a21218/" class="fa fa-linkedin" style="font-size: 25px;" target="_blank"></a>
-            <a href="https://github.com/nandweza" class="fa fa-github" style="font-size: 25px;" target="_blank"></a>
-            <a href="https://medium.com/@allannandweza" class="fa fa-medium" style="font-size: 25px;" target="_blank"></a>
+            <a href="https://www.facebook.com/profile.php?id=100088310495889" class="fa fa-facebook" target="_blank"></a>
+            <a href="https://twitter.com/@allannandweza" class="fa fa-twitter" target="_blank"></a>
+            <a href="https://www.linkedin.com/in/nandweza-allan-054a21218/" class="fa fa-linkedin" target="_blank"></a>
+            <a href="https://github.com/nandweza" class="fa fa-github" target="_blank"></a>
+            <a href="https://medium.com/@allannandweza" class="fa fa-medium" target="_blank"></a>
           </span>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6 col-md-6">
           <form action="#" method="post" class="px-5 pb-5">
             <div class="form-group">
               <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name">
