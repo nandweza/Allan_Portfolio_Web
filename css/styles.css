@@ -69,6 +69,11 @@ ul {
   width: 40%;
 }
 
+.offcanvas-brand {
+  font-size: 25px;
+  font-weight: 600;
+}
+
 .navbar-brand {
   font-size: 3rem;
   font-weight: 600;
